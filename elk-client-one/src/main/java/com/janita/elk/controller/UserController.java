@@ -20,6 +20,7 @@ public class UserController {
 
     @PostMapping("/login")
     public User login(@RequestBody User user){
+
         //TODO 在这里需要向ELK中写入日志
         return userService.doLogin(user.getUsername(), user.getPassword());
     }
