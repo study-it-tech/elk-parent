@@ -24,7 +24,7 @@ public class UserController {
     public User login(String username){
 
 
-        logger.debug("张凯凯 在登录");
+        logger.debug("朱晨剑 在登录");
         return userService.doLogin(username, "123456");
     }
 }
