@@ -20,5 +20,4 @@ public class MemberController {
         member.setPassword("123");
         return member;
     }
-
 }
