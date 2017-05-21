@@ -9,6 +9,7 @@
 	<modules>
 		<module>elk-install</module>
 		<module>elk-client-one</module>
+		<module>log4j-demo</module>
 	</modules>
 	<packaging>pom</packaging>
 
