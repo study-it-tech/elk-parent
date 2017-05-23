@@ -13,4 +13,22 @@ public class Install {
      *  docker run  -d -v /zbmatsu/logstash:/config-dir -p 3456:3456 hub.c.163.com/library/logstash logstash -f /config-dir/logstash.conf
      *
      */
+
+
+    /**
+     *
+     * docker ps -a
+     *
+     * 列出有docker容器中所有的程序
+     *
+     * docker stop + CONTAINER ID
+     * 关闭某个程序
+     *
+     * docker start + CONTAINER ID
+     * 打开某个程序
+     *
+     * docker images
+     * 列出docker容器中所用的images
+     *
+     */
 }
